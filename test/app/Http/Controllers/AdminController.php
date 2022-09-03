@@ -17,6 +17,8 @@ class AdminController extends Controller
         if(Auth::user()->hasRole('0')){
 
             return view('admin.ofms');
+        }elseif(Auth::user()->hasRole('1')){
+            return view('admin.ofms');
         }
     }
 }
