@@ -16,8 +16,4 @@ class DashboardController extends Controller
             return view('dashboard');
         }
     }
-
-    // public function myprofile(){
-    //     return view('myprofile');
-    // }
 }
